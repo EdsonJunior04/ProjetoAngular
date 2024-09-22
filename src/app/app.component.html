@@ -1,14 +1,13 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<section class="grid">
 
-
-<h1>Entendendo o Menu</h1>
-
-
-<button mat-button [matMenuTriggerFor]="menu">Selecione a página</button>
-<mat-menu #menu="matMenu">
-    <button mat-menu-item routerLink="/" routerLinkActive="active">Início</button>
-    <button mat-menu-item routerLink="/Sobre" routerLinkActive="active">Sobre</button>
-    <button mat-menu-item routerLink="/Experiencias" routerLinkActive="active">Experiências</button>
-</mat-menu>
-<router-outlet></router-outlet>
+    <app-header></app-header>
+    
+    
+    <button mat-button [matMenuTriggerFor]="menu">MENU</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="/" routerLinkActive="active">Início</button>
+        <button mat-menu-item routerLink="/Sobre" routerLinkActive="active">Sobre</button>
+        <button mat-menu-item routerLink="/Experiencias" routerLinkActive="active">Experiências</button>
+    </mat-menu>
+    <router-outlet></router-outlet>
+</section>

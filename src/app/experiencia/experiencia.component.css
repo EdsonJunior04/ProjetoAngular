@@ -1,0 +1,31 @@
+.container_experiencia {
+    background-color: white;
+    border-radius: 5%;
+}
+
+.titulo_experiencia{
+    margin: 3% 0 0 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_job{
+    /* background-color:  blue; */
+    border-radius: 5%;
+}
+
+.titulos_job{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.realizacoes{
+    /* background-color: yellow; */
+    padding: 5%;
+}
+
+.realizacoes li{
+    margin-left: 4%;
+}
